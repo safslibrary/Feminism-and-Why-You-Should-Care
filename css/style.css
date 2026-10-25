@@ -1,3 +1,8 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 @font-face {
     font-family: averia;
     src: url(../fonts/AveriaSerifLibre-Regular.ttf);
@@ -6,10 +11,6 @@
 @font-face {
     font-family: doctor;
     src: url(../fonts/DoctorGlitch.otf);
-}
-
-* {
-    padding: 0;
 }
 
 body {
@@ -34,6 +35,17 @@ nav>ul {
     margin: 0;
 }
 
+nav>li {
+    font-family: doctor;
+    background-color: #dae68a;
+    padding: 3%;
+
+    font-style: normal;
+    color: #4a2650;
+    font-size: 175%;
+    margin: 0;
+}
+
 nav>ul :hover {
     background-color: #c3d165;
     transform: scale(1.3);
@@ -42,21 +54,6 @@ nav>ul :hover {
 nav>ul :active {
     background: #b4ce2e;
     color: #f5f5f5;
-}
-
-ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-
-    font-family: averia;
-    background-color: #f5f5f5;
-    padding: 2%;
-
-    font-size: 110%;
-    font-style: normal;
-    color: #4a2650;
 }
 
 main {
@@ -69,14 +66,26 @@ main {
     background-color: #4a2650;
 }
 
-/* div:not(.leftbanner) {
-    display: flex;
-    flex-direction: column;
+section {
+    padding: 1%;
+}
 
-    img {
-        width: 15vw;
-    }
-} */
+main>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    font-family: averia;
+    background-color: #f5f5f5;
+    padding: 2%;
+    margin: 1%;
+}
+
+p {
+    padding: 1%;
+    font-size: 110%;
+}
 
 h1 {
     font-family: doctor;
@@ -86,10 +95,6 @@ h1 {
     position: absolute;
     top: 14.4em;
     left: -7.3em;
-}
-
-section {
-    padding: 20px;
 }
 
 h2 {
@@ -102,12 +107,9 @@ h2 {
     justify-content: space-around;
 }
 
-li {
-    list-style: none;
-}
-
 h3 {
-    font-size: 125%;
+    font-size: 130%;
+    padding: 1%;
 }
 
 img {
