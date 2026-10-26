@@ -33,6 +33,8 @@ nav>ul {
     color: #4a2650;
     font-size: 175%;
     margin: 0;
+
+    border: #4a2650;
 }
 
 nav>li {
