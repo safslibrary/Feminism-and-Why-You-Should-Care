@@ -145,3 +145,23 @@ a:hover {
 a:active {
     background: #dae68a;
 }
+
+nav a[aria-current="page"] {
+    color: #fbffe8;
+}
+
+.next {
+    justify-content: end;
+}
+
+.next a {
+    margin-right: 12em;
+}
+
+.previous {
+    justify-content: start;
+}
+
+.previous a {
+    margin-left: 12em;
+}
