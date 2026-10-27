@@ -59,7 +59,7 @@ nav>ul :active {
 }
 
 nav a[aria-current="page"] {
-    color: #fbffe8;
+    color: #fbffe5;
 }
 
 main {
@@ -67,7 +67,7 @@ main {
 }
 
 .leftbanner {
-    width: 11.5em;
+    width: 12em;
     flex-shrink: 0;
     background-color: #4a2650;
 }
@@ -99,8 +99,8 @@ h1 {
     font-size: 5em;
     rotate: 270deg;
     position: absolute;
-    top: 14.4em;
-    left: -7.3em;
+    top: 13.5em;
+    left: -7.35em;
 }
 
 h2 {
@@ -133,7 +133,7 @@ figcaption {
 }
 
 .next a {
-    margin-right: 12em;
+    margin-right: 16em;
 }
 
 .previous {
@@ -141,7 +141,7 @@ figcaption {
 }
 
 .previous a {
-    margin-left: 12em;
+    margin-left: 16em;
 }
 
 footer {
